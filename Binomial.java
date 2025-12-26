@@ -3,7 +3,8 @@ public class Binomial {
     public static void main(String[] args) {
 		int n = Integer.parseInt(args[0]);
 		int k = Integer.parseInt(args[1]);
-	
+		
+	System.out.println(binomial(n, k));
 	}
 
 	public static int binomial1(int n, int k) { 
